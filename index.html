@@ -18,7 +18,7 @@
     <title>Zala Migration Consultant</title>
   </head>
   <body>
-    <div class="navbar">
+    <div class="navbar" id="nav">
       <div class="container">
         <nav class="nav-1">
           <ul class="nav-primary">
@@ -56,7 +56,7 @@
             <i class="fas fa-globe"></i>
             <div class="logo__text">
               <h1>Zala<span class="highlight">Migration</span></h1>
-              <h4>for immigration purposes</h4>
+              <!-- <h4>for immigration purposes</h4> -->
             </div>
           </div>
           <div class="nav-2__menu" id="nav-mobile-open-container">
@@ -66,25 +66,39 @@
             <a href="#" class="close-btn">
               <i class="far fa-times-circle"></i>
             </a>
-            <ul>
-              <li><a href="#" class="active">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#" class="nav-cta-primary">Apply Now</a></li>
+            <ul class="nav-mobile-list">
+              <li>
+                <a href="#home" id="nav-link" class="active">Home</a>
+              </li>
+              <li>
+                <a href="#about" id="nav-link">About</a>
+              </li>
+              <li>
+                <a href="#services" id="nav-link">Services</a>
+              </li>
+              <li>
+                <a href="#contact" id="nav-link">Contact Us</a>
+              </li>
+              <li>
+                <a href="#nav" id="nav-link" class="nav-cta-primary"
+                  >Apply Now</a
+                >
+              </li>
             </ul>
           </div>
-          <ul class="nav-desk hidden">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#" class="nav-cta-primary">Apply Now &rarr;</a></li>
-          </ul>
+          <!-- <ul class="nav-desk hidden">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li>
+              <a href="#home" class="nav-cta-primary">Apply Now &rarr;</a>
+            </li>
+          </ul> -->
         </div>
       </nav>
     </div>
-    <section class="section-hero">
+    <section class="section-hero" id="home">
       <div class="container hero-container">
         <div class="hero-text">
           <h1>Best Solution to all Migration Matters</h1>
@@ -98,7 +112,7 @@
         </div>
       </div>
     </section>
-    <section class="section-services">
+    <section class="section-services" id="services">
       <div class="container">
         <div class="services-container">
           <div class="service">
@@ -140,7 +154,7 @@
         </div>
       </div>
     </section>
-    <section class="section section-about">
+    <section class="section section-about" id="about">
       <div class="container">
         <div class="about-container">
           <div class="about-heading">
@@ -269,7 +283,7 @@
         </div>
       </div>
     </section>
-    <footer class="section-footer">
+    <footer class="section-footer" id="contact">
       <div class="container">
         <div class="testimonials-heading">
           <h4>contact</h4>
